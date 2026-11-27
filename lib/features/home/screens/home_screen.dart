@@ -40,7 +40,14 @@ class _HomeScreenState extends State<HomeScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(context.tr('app_title')),
+        title: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Image.asset('assets/icons/app_icon.png', width: 28, height: 28),
+            const SizedBox(width: 8),
+            Text(context.tr('app_title')),
+          ],
+        ),
         actions: [
           IconButton(
             icon: Icon(widget.isDark ? Icons.light_mode : Icons.dark_mode),

@@ -6,7 +6,7 @@ class AppL10n {
 
   static const Map<String, Map<String, String>> _values = {
     'vi': {
-      'app_title': 'AIoT Hub',
+      'app_title': 'Aiot Duck',
       'tab_overview': 'Tổng quan',
       'tab_devices': 'Thiết bị',
       'tab_ai': 'Gemini AI',
@@ -19,7 +19,7 @@ class AppL10n {
       'lang_name': 'Tiếng Việt',
     },
     'en': {
-      'app_title': 'AIoT Hub',
+      'app_title': 'Aiot Duck',
       'tab_overview': 'Overview',
       'tab_devices': 'Devices',
       'tab_ai': 'Gemini AI',

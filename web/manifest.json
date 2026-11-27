@@ -1,6 +1,6 @@
 {
-    "name": "aiot_app",
-    "short_name": "aiot_app",
+    "name": "Aiot Duck",
+    "short_name": "Aiot Duck",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
